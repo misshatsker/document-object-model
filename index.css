@@ -33,7 +33,8 @@ body {
 }
 
 .header .menu-item .link:hover,
-.header .menu-btn:hover {
+.header .menu-btn:hover,
+.active-menu-item .link {
   background-color: #f4f4f4;
 }
 
