@@ -1,7 +1,7 @@
 const animals = [
     {
         title: "Cats",
-        media: "/media/cat.jpg",
+        media: "./media/cat.jpg",
         description: "Domestic cats are natural hunters able to stalk prey and pounce with sharp claws and teeth. They are particularly effective at night, when their light-reflecting eyes allow them to see better than much of their prey. Cats also enjoy acute hearing. All cats are nimble and agile, and their long tails aid their outstanding balance.",
         propertyLifespan: "Up to 18 years",
         propertyDiet: "Carnivore",
@@ -10,7 +10,7 @@ const animals = [
     },
     {
         title: "Dogs",
-        media: "/media/dogs.jpg",
+        media: "./media/dogs.jpg",
         description: "Because the domestic dog’s sense of smell is between 10,000 and 100,000 better than our own, canines can assist law enforcement. Dogs trained to warn of hidden explosives and enemies serve as allies in military operations. Similarly, dogs can sniff out early signs disease. They guide deaf and blind people, and they help people with autism and post-traumatic stress disorder manage with anxiety.",
         propertyLifespan: "12 years",
         propertyDiet: "Omnivore",
@@ -19,7 +19,7 @@ const animals = [
     },
     {
         title: "Didelphis",
-        media: "/media/didelphis.jpg",
+        media: "./media/didelphis.jpg",
         description: "These animals are most famous for “playing possum.” When threatened by dogs, foxes, or bobcats, opossums sometimes flop onto their sides and lie on the ground with their eyes closed or staring fixedly into space. They extend their tongues and generally appear to be dead. This ploy may put a predator off its guard and allow the opossum an opportunity to make its escape.",
         propertyLifespan: "Up to 15 years",
         propertyDiet: "Omnivore",
@@ -28,7 +28,7 @@ const animals = [
     },
     {
         title: "Fishes",
-        media: "/media/fishes.jpg",
+        media: "./media/fishes.jpg",
         description: "Contrary to popular belief, fish do have great memories. Some species of fish can recognize and remember humans that give them food rewards. Fish will avoid situations they know to cause them pain, and will seek out experiences with rewards.",
         propertyLifespan: "Up to 20 years",
         propertyDiet: "Balanced diet",
@@ -37,7 +37,7 @@ const animals = [
     },
     {
         title: "Ants",
-        media: "/media/ant.jpg",
+        media: "./media/ant.jpg",
         description: "Ants first rose during the Cretaceous period around 130 million years ago! They have survived the Cretaceous-Tertiary (K/T extinction) that killed the dinosaurs as well as the ice age. They have the ability to carry between 10 and 50 times their own body weight! The amount an ant can carry depends on the species. This amazing strength is a result of their small size. ",
         propertyLifespan: "Up to 30 years",
         propertyDiet: "Omnivore",
