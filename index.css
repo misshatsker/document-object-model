@@ -1,3 +1,9 @@
+:root {
+  --orange: #FF9F00;
+  --dark: #333;
+  --darkblue: #2E4960;
+}
+
 body {
   margin: 0;
   font-family: Helvetica, sans-serif;
@@ -8,7 +14,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   position: fixed;
-  background-color: #FF9F00;
+  background-color: var(--orange);
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   width: 100%;
   top: 0;
@@ -22,7 +28,7 @@ body {
   list-style: none;
   max-height: 0;
   transition: all .2s ease-out;
-  background-color: #FF9F00;
+  background-color: var(--orange);
 }
 
 .header .menu-item .link {
@@ -51,7 +57,7 @@ body {
 }
 
 .header .menu-icon .navicon {
-  background: #333;
+  background: var(--dark);
   display: block;
   height: 2px;
   position: relative;
@@ -61,7 +67,7 @@ body {
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: var(--dark);
   content: '';
   display: block;
   height: 100%;
@@ -139,7 +145,7 @@ body {
 .animal-category-title {
   margin-left: 10px;
   margin-top: 10px;
-  color: #2E4960;
+  color: var(--darkblue);
   font-family: 'Aboreto', cursive;
 }
 
@@ -148,7 +154,7 @@ body {
   margin-left: 10px;
   font-size: 18px;
   font-weight: 300;
-  color: #2E4960;
+  color: var(--darkblue);
 }
 
 .animal-property-list {
@@ -174,7 +180,7 @@ body {
 }
 
 .property-info {
-  color: #2E4960;
+  color: var(--darkblue);
   font-weight: 300;
   margin: 0;
 }
